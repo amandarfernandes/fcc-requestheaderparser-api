@@ -1,5 +1,3 @@
-# fcc-requestheaderparser-api
-
 Request Header Parser Microservice
 ==========================
 Objective: 

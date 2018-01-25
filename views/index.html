@@ -1,0 +1,85 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Freecodecamp Request Header Parser API</title>
+    <meta name="description" content="Freecodecamp Request Header Parser API">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+        <div class="container">
+
+    <header>
+      <h1>
+        Freecodecamp Backend Challenge #2
+      </h1>
+    </header>
+      
+    
+    <main>
+      <h2>
+        Request Header Parser Microservice
+      </h2>
+      <p class="bold">Objective</p>
+      <p>Build a full stack JavaScript app that is functionally similar to this: 
+        https://cryptic-ridge-9197.herokuapp.com/api/whoami/.</p>
+      <p>Here's the specific user story you should implement for this project:</p>
+      <ol>
+      <li>I can get the IP address, language and operating system for my browser.</li>        
+      </ol>
+
+       <h3>
+        Example usage:
+      </h3>
+      <code>
+        https://fcc-mandycodestoo-reqheader-api.glitch.me/api/whoami
+      </code>
+    <h3>
+      Example output:
+    </h3>
+    <code>
+    {"ipaddress":"127.0.0.1","language":"en-US","software":"Macintosh; Intel Mac OS X 10_13_1"}
+      </code>
+
+
+    </main>
+    <footer>
+      Made by Amanda R. Fernandes.       
+      <p>
+        <a target="_blank"
+      href="https://www.linkedin.com/in/amandadcunhafernandes/" 
+      class="fa fa-linkedin"></a>  
+      <a target="_blank" 
+      href="https://twitter.com/mandycodestoo" 
+      class="fa fa-twitter"></a>
+        <a target="_blank"
+      href="https://github.com/amandarfernandes" 
+      class="fa fa-github"></a>  
+        <a target="_blank" 
+      href="https://codepen.io/mandycodestoo/#" 
+      class="fa fa-codepen"></a>  
+      </p> 
+    </footer>  
+
+    </div>
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>
